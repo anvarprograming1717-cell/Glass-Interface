@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Maktab Raqamli Tizimi"
+description = "AI bilan kuchaytirilgan maktab boshqaruv tizimi. Direktor, Zavuch, O'qituvchi, O'quvchi va Ota-ona rollari uchun panel. Tezkor baho/davomat kiritish, real-vaqt bildirishnomalar, bashoratli ogohlantirish tizimi. O'zbek, Rus, Ingliz tili qo'llab-quvvatlashi va iOS 26 shisha effekti dizayni bilan."
+version = "1.0.0"
+id = "artifacts/maktab"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19219
+
+[services.development]
+run = "pnpm --filter @workspace/maktab run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/maktab", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/maktab/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19219"
+BASE_PATH = "/"

@@ -1,0 +1,78 @@
+Maktab Raqamli Tizimi — Rollar va AI Funksiyalari Spetsifikatsiyasi
+
+Kundalik.com'ga muqobil, AI bilan kuchaytirilgan maktab boshqaruv tizimi uchun to'liq talablar hujjati.
+
+1. DIREKTOR (Admin)
+Asosiy funksiyalar
+Maktab bo'yicha umumiy statistika (barcha sinflar, fanlar bo'yicha o'rtacha ko'rsatkichlar)
+O'qituvchilarni qo'shish/o'chirish, sinflarga biriktirish
+Sinflar, fanlar, dars jadvalini boshqarish
+O'qituvchilar faoliyatini nazorat qilish (baho qo'yish tezligi, davomat belgilash muntazamligi)
+Moliyaviy/hisobot modulini ko'rish (agar to'lov integratsiyasi bo'lsa)
+Ota-onalar va o'qituvchilar orasidagi shikoyat/murojaatlarni ko'rish va hal qilish
+Maktab miqyosida e'lonlar yuborish (hammaga yoki tanlangan sinflarga)
+AI nima qilib beradi
+Maktab bo'yicha bashoratli tahlil: qaysi sinf yoki fan bo'yicha natijalar pasayish tendensiyasida ekanini oldindan aniqlaydi va hisobot beradi
+O'qituvchi samaradorligi tahlili: qaysi o'qituvchining sinfida o'zlashtirish barqaror o'sayotgani, qaysi birida muammo borligini neytral, raqamli asosda ko'rsatadi (baholash uchun emas, yordam ko'rsatish uchun)
+Avtomatik oylik/choraklik hisobot generatsiyasi: direktor uchun tayyor, tushunarli tilda yozilgan xulosa hujjati (Vazirlikka topshirish uchun ham moslashtirilgan formatda)
+Anomaliya aniqlash: g'ayrioddiy holatlarni belgilaydi (masalan, bitta o'qituvchida barcha o'quvchilarga bir xil baho qo'yilishi, yoki davomat ma'lumotlarida nomuvofiqlik)
+2. ZAVUCH (O'quv ishlari bo'yicha direktor o'rinbosari)
+Asosiy funksiyalar
+Dars jadvalini tuzish va o'zgartirish
+O'qituvchilarning dars rejalarini ko'rib chiqish va tasdiqlash
+Fanlararo muvofiqlashtirish (masalan, bir kunda ko'p test bo'lib qolmasligi uchun)
+O'qituvchilar o'rtasida almashtirish (kasal bo'lganda kim o'rniga kiradi)
+Davomat va intizom bo'yicha umumiy nazorat
+AI nima qilib beradi
+Aqlli dars jadvali tuzuvchi: xonalar, o'qituvchilar bandligi, fanlar og'irligini hisobga olib, optimal jadval taklif qiladi (qo'lda soatlab jadval tuzish o'rniga)
+Test/nazorat ish taqvimini muvofiqlashtirish: bir hafta ichida bitta sinfga juda ko'p test to'planib qolmasligini avtomatik aniqlab, ogohlantiradi
+O'qituvchi almashtirish tavsiyasi: kim kasal bo'lsa, bo'sh vaqti bor va mos fan bila oladigan o'qituvchini avtomatik taklif qiladi
+3. O'QITUVCHI
+Asosiy funksiyalar
+Baho qo'yish (kunlik, chorak, yillik)
+Davomat belgilash
+Uy vazifasi va test topshiriqlarini kiritish
+Ota-onalarga xabar yuborish (individual yoki umumiy)
+Dars rejasi va materiallarni yuklash
+O'quvchi xulq-atvori bo'yicha eslatmalar qoldirish
+AI nima qilib beradi
+Tezkor baho kiritish: ovoz orqali ("Aliyev to'rt, Karimov besh, Nazarova a'lo") yoki fotosuratdan qo'lyozma javoblarni tekshirib, tavsiya etilgan baho chiqaradi — o'qituvchi bir tugma bilan tasdiqlaydi
+Insho/matn ishlarini dastlabki tekshiruv: grammatika, tuzilma, mazmun bo'yicha AI izoh beradi, o'qituvchi yakuniy bahoni qo'yadi
+Avtomatik test generatsiyasi: mavzu kiritilsa, turli qiyinlik darajasidagi savollar bilan test tayyor bo'ladi
+Zaif o'quvchilar uchun qo'shimcha mashq tavsiyasi: kim qaysi mavzuda qiynalayotganini aniqlab, unga mos individual mashqlar taklif qiladi
+Ota-onaga xabar qoralamasi: o'qituvchi vaziyatni qisqa yozadi, AI buni odobli, tushunarli xabar shakliga keltirib beradi (vaqt tejash uchun)
+4. O'QUVCHI
+Asosiy funksiyalar
+Baholarni, davomatni ko'rish
+Uy vazifalari va topshiriq muddatlarini ko'rish
+Dars materiallarini yuklab olish
+O'qituvchiga savol yozish
+AI nima qilib beradi
+Shaxsiy AI repetitor: uy vazifasida qiynalganda to'g'ridan-to'g'ri javob bermaydi, balki yo'naltiruvchi savollar beradi ("bu yerda qaysi formulani ishlatish kerak edi?")
+Kunlik/haftalik reja tuzuvchi: barcha fanlardan uy vazifalarini muddatiga qarab avtomatik ustuvorlik bilan tartibga soladi
+Zaif tomonlarni aniqlash va mashq berish: test natijalariga qarab, qaysi mavzuni takrorlash kerakligini ko'rsatadi
+Motivatsion tizim (gamifikatsiya): haftalik yutuqlar, progress ko'rsatkichlari — AI buni shaxsiylashtirib taqdim etadi
+5. OTA-ONA
+Asosiy funksiyalar
+Farzandining baho, davomat, uy vazifalarini real vaqtda kuzatish
+O'qituvchi bilan to'g'ridan-to'g'ri muloqot
+Maktab e'lonlarini olish
+To'lovlar (agar mavjud bo'lsa — ovqatlanish, qo'shimcha darslar)
+AI nima qilib beradi — bu eng katta farqlovchi qism
+Bashoratli ogohlantirish: farzandning baho/davomat/uy vazifa naqshlarini kuzatib, "3 haftadan keyin bu fandan muammo boshlanishi mumkin" deb oldindan xabar beradi — muammo chuqurlashguncha kutmaydi
+Haftalik AI xulosa xati: raqamlar jadvali o'rniga, oddiy, inson tilida yozilgan qisqa hisobot: "Farzandingiz bu hafta matematikada yaxshi natija ko'rsatdi, lekin ingliz tilidan darsga faol qatnashmayapti"
+Savol-javob yordamchisi: ota-ona "farzandim nega bu bahoni oldi" desa, AI tushuntiradi (qaysi test, qaysi mavzu asosida)
+Ko'p tilli qo'llab-quvvatlash: agar ota-ona rus yoki boshqa tilda qulayroq bo'lsa, barcha xabarlar avtomatik tarjima qilinadi
+MUHIM PRINSIP: AI qaerda TO'XTASHI kerak
+AI hech qachon yakuniy bahoni mustaqil qo'ymaydi — faqat tavsiya beradi, odam tasdiqlaydi. Bu ishonch va huquqiy himoya uchun zarur.
+AI bergan barcha bashoratlar va tahlillar tushuntirilishi kerak ("nega shunday xulosaga keldi" — shaffoflik).
+Bolalar ma'lumotlari bilan ishlashda ma'lumotlar maxfiyligi qat'iy saqlanishi kerak (bu O'zbekiston qonunchiligi va ota-onalar ishonchi uchun juda muhim).
+Keyingi qadam (tavsiya)
+
+MVP (birinchi versiya) uchun ustuvorlik tartibi:
+
+O'qituvchi uchun tezkor baho/davomat kiritish (eng katta og'riq nuqtasi)
+Ota-ona uchun real vaqtli xabar va haftalik AI xulosa
+Bashoratli ogohlantirish tizimi (eng katta farqlovchi xususiyat)
+
+Qolgan funksiyalar (test generatsiyasi, repetitor, jadval tuzuvchi) keyingi bosqichlarda qo'shiladi.
