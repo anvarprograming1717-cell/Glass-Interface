@@ -9,7 +9,7 @@ import { useGetMe } from '@workspace/api-client-react';
 
 export default function Settings() {
   const { t, lang, setLang } = useTranslation();
-  const { logout } = useAuthStore();
+  const { logout, role } = useAuthStore();
   const [, setLocation] = useLocation();
   const { data: me, isError } = useGetMe({ query: { retry: false } });
 
