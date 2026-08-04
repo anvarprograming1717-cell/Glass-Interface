@@ -1,0 +1,69 @@
+Siz yuborgan rasmiy yordam portali menyusidan kelib chiqib, eMaktab.uz (Kundalik.com) platformasining to‘liq, ixcham va aniq tizim strukturasi quyidagicha shakllantiriladi:
+
+1. Boshqaruv va Tashkiliy Bo‘lim (Администраторам / Centralized)
+Maktab direktori va administratorlar uchun mo‘ljallangan markaziy boshqaruv bloki.
+
+O‘quv yilini boshlash va yakunlash:
+
+O‘quv yilini ochish, choraklarni belgilash va sinflarni keyingi o‘quv yiliga o‘tkazish/qaytarish.
+
+Jadval va Fanlar boshqaruvi:
+
+Dars jadvallarini tuzish, tanlov/sektor fanlarini biriktirish (masalan, 7-sinf matematika yoki xorijiy tillarni guruhlarga bo‘lish).
+
+Profil va Qarindoshlik sozlamalari:
+
+O‘qituvchi, o‘quvchi va ota-onalarga kirish parollarini berish va qarindoshlik aloqalarini (Настройка родственной связи) bog‘lash.
+
+Monitoring va Dashboard:
+
+Maktab aktivligi, jurnallar va uy vazifalarining o‘z vaqtida kiritilishini nazorat qilish ko‘rsatkichlari.
+
+2. O‘quv va Baholash Bo‘limi (Критериальное оценивание / Журналы)
+O‘qituvchilar va zavuchlar ishlaydigan asosiy ta'lim bloki.
+
+Mezonli baholash (BSB / ChSB / СОР / СОЧ):
+
+Nazorat ishlarini jurnal orqali biriktirish, o‘tkazish va baholash.
+
+Yakuniy BSB/ChSB ballarini hisoblash va avtomatik jurnalga o‘tkazish.
+
+Jurnal va Uy vazifalari moduli:
+
+Kunlik davomat va baholarni kiritish.
+
+Uy vazifalarini berish hamda ularning o‘z vaqtida berilganlik ko‘rsatkichini (KPI) kuzatish.
+
+O‘quvchilar tabellari (Табели):
+
+Choraklik va yillik baholar bo‘yicha o‘quvchilarning akademik ko‘rsatkichlarini shakllantirish.
+
+3. Raqamli Ekosistema va Integratsiyalar (eMaktab.Smart & Servislar)
+Ta'lim sifatini oshirish va qo‘shimcha imkoniyatlar beruvchi raqamli xizmatlar.
+
+eMaktab.Smart:
+
+O‘qituvchi va o‘quvchilar uchun interaktiv ta'lim resurslari va aqlli o‘quv materiallari.
+
+Hamkorlik va Qo‘shimcha ta'lim (ДОД):
+
+To‘garaklar va maktabdan tashqari ta'lim yo‘nalishlarini boshqarish.
+
+eMaktab.Bonus:
+
+O‘quvchilarning yaxshi baholarini rag‘batlantirish tizimi.
+
+4. Foydalanuvchilar Bo‘limi (Родителям и учащимся)
+O‘quvchi va ularning ota-onalari uchun mo‘ljallangan nazorat va muloqot qismi.
+
+eMaktab.Oila mobil ilovasi:
+
+Baholar, kunlik dars jadvali va xabarlarni real vaqt rejimida kuzatib borish.
+
+Obunalar boshqaruvi (Управление подписками):
+
+Mobil ilova va qo‘shimcha funksiyalardan foydalanish sozlamalari.
+
+Muloqot va Hamjamiyat (Сообщества):
+
+Maktab va sinf ichidagi e'lonlar, xabarlar hamda muloqot maydoni.
